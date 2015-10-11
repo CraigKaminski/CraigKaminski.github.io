@@ -3,9 +3,6 @@ body {
 }
 
 #home {
-  height: calc(100vh - 50px);
-  display: flex;
-  flex-flow: column;
   color: white;
   background-image: url("../images/1ZSNQTSXVM_970x754.jpeg");
   background-size: cover;
@@ -22,16 +19,6 @@ body {
   font-size: 1.5em;
 }
 
-.flex-whitespace {
-  flex-grow: 1;
-}
-
-#contact {
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 50px);
-}
-
 #contact h3 {
   margin-top: 0;
 }
@@ -39,6 +26,16 @@ body {
 #contact p {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.flex-fullscreen-vertical {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+}
+
+.flex-whitespace {
+  flex-grow: 1;
 }
 
 .row + .row {
