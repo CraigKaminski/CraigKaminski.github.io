@@ -1,0 +1,32 @@
+body {
+  padding-top: 50px;
+}
+
+#home {
+  background-image: url("../images/1ZSNQTSXVM_970x754.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.row + .row {
+  padding-top: 15px;
+}
+
+@media (max-width: 1200px) {
+  .row [class^="col-lg-"] + [class^="col-lg-"] {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .row [class^="col-md-"] + [class^="col-md-"] {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .row [class^="col-sm-"] + [class^="col-sm-"] {
+    padding-top: 15px;
+  }
+}
