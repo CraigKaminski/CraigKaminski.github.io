@@ -3,10 +3,42 @@ body {
 }
 
 #home {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-flow: column;
+  color: white;
   background-image: url("../images/1ZSNQTSXVM_970x754.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#home h1 {
+   font-size: 64px;
+   font-family: Parisienne, serif;
+}
+
+#about p {
+  font-size: 1.5em;
+}
+
+.flex-whitespace {
+  flex-grow: 1;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+}
+
+#contact h3 {
+  margin-top: 0;
+}
+
+#contact p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .row + .row {
